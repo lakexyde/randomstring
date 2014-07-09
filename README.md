@@ -9,7 +9,7 @@ A simple library for creating a random string
 
 * PHP 5.4+
 
-### Directions
+### Usage
 
 ````
 
@@ -36,7 +36,6 @@ $str = $random->generate(13, false, 'strtoupper');
 ````
 
 ### Installation via [Composer](http://getcomposer.org/)
-------------
 
  * Install Composer to your project root:
     ```bash
