@@ -1,9 +1,9 @@
 {
-	"name": "chriskacerguis/Randomstring",
+	"name": "chriskacerguis/randomstring",
     "license": "MIT",
 	"description": "simple class to generate a random string (good for random generated passwords)",
 	"keywords": [
-		"Randomstring", "chriskacerguis", "password", "random"
+		"Randomstring", "chriskacerguis", "password", "random", "string", "generator"
 	],
 	"authors": [
 		{
