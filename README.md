@@ -1,6 +1,8 @@
 Randomstring
 ==========
 
+[![Build Status](https://api.travis-ci.org/chriskacerguis/randomstring.png)](https://travis-ci.org/chriskacerguis/randomstring)
+
 A simple library for creating a random string
 
 ### Requirments
