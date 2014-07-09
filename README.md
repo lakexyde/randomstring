@@ -35,6 +35,28 @@ $str = $random->generate(13, false, 'strtoupper');
 
 ````
 
+### Installation via [Composer](http://getcomposer.org/)
+------------
+
+ * Install Composer to your project root:
+    ```bash
+    curl -sS https://getcomposer.org/installer | php
+    ```
+
+ * Add a `composer.json` file to your project:
+    ```json
+    {
+      "require" {
+        "chriskacerguis/randomstring": "1.0.*"
+      }
+    }
+    ```
+
+ * Run the Composer installer:
+    ```bash
+    php composer.phar install
+    ```
+
 ### A Quick Note About Security
 
 This library is built to be "enough" and fast for most applications (like generating an initial password, however 
