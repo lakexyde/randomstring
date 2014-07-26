@@ -13,7 +13,7 @@ A simple library for creating a random string
 
 ````
 
-$random = new \chriskacerguis\Randomstring();
+$random = new \chriskacerguis\Randomstring\Randomstring();
 
 /*
 Generate a random string of 8 charecters, using alpha numerics.
@@ -58,6 +58,6 @@ $str = $random->generate(13, false, 'strtoupper');
 
 ### A Quick Note About Security
 
-This library is built to be "enough" and fast for most applications (like generating an initial password, however 
+This library is built to be "enough" and fast for most applications (like generating an initial password, however
 for cryptographically secure applications, you *should* use the PHP method openssl_random_pseudo_bytes() or some
 other method that uses a cryptographically strong algorithm.
